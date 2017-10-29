@@ -8,7 +8,6 @@ body {
 .company {
   background: black;
   color: white;
-
 }
 
 .logo {
@@ -46,9 +45,8 @@ body {
   display: flex;
   max-width: 960px;
   margin: 0px auto;
-
 }
-.banner {
+.headline {
   display: block;
   background-color: black;
   color: white;
@@ -71,18 +69,28 @@ nav {
 
 nav ul {
   display: flex;
-  background-color: Firebrick;
   align-items: center;
   justify-content: space-between;
   padding: .75em 0px;
   list-style: none;
-  color: white;
 }
 
 .nav-container {
   display: flex;
   max-width: 960px;
   margin: 0px auto;
+}
+
+.mobile-nav {
+  display: none;
+  max-width: 960px;
+  margin: 0px auto;
+  color: white;
+  align-items: center;
+}
+
+li {
+  display: list-item;
 }
 
 .product-container {
@@ -160,4 +168,54 @@ footer {
   display: block;
   max-width: 960px;
   margin: 0px auto;
+}
+
+@media only screen and (max-width: 1024px){
+  body {
+    font-size: 16px;
+  }
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .product-container {
+    display: flex;
+    max-width: 960px;
+    margin: 0px auto;
+  }
+
+  .product {
+    display: block;
+    min-width: 47%;
+    margin: 0px 3rem 0px;
+}
+
+  .nav-container {
+    display: none;
+}
+
+}
+
+@media ony screen and (max-width: 470px) {
+  h4 {
+    font-size: .77rem;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .banner-container {
+    display: flex;
+  }
+
+  .product {
+    display: block;
+    width: 90%;
+  }
+
+
 }
