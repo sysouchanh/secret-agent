@@ -42,6 +42,12 @@ body {
   background-size: cover;
 }
 
+.banner-container {
+  display: flex;
+  max-width: 960px;
+  margin: 0px auto;
+
+}
 .banner {
   display: block;
   background-color: black;
@@ -108,4 +114,50 @@ nav ul {
 .product-image img {
   max-width: 8em;
   border-style: none;
+}
+
+.product span {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: .5em;
+}
+
+.information-container {
+  display: block;
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0px 0px;
+}
+
+.information {
+  display: block;
+  width: 35%;
+}
+
+.information .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+
+footer {
+  display: block;
+  background-color: black;
+  color: white;
+  margin-top: 4em;
+  padding: 5em 0px;
+}
+
+.footer-container {
+  display: block;
+  max-width: 960px;
+  margin: 0px auto;
 }
