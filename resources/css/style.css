@@ -208,14 +208,31 @@ footer {
     font-weight: bold;
   }
 
-  .banner-container {
-    display: flex;
+  .banner-container .headline {
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    top: 10em;
   }
 
-  .product {
-    display: block;
-    width: 90%;
+  .nav-container {
+    top: 15rem;
   }
+    .product {
+      width: 90%;
+    }
+
+    .information {
+      display: block;
+      width: 90%;
+      margin: 0.5em auto;
+
+    }
+
+    footer {
+      display: block;
+      text-align: center;
+    }
 
 
 }
